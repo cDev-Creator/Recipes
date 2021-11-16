@@ -1,0 +1,43 @@
+body {
+  font-family: 'Pacifico', cursive;
+  color: rgba(16, 16, 16, 0.8);
+  /* background-color: rgb(172,189,161); */
+  background: #BABABA;
+  background: -moz-linear-gradient(top, #BABABA 0%, #ACBDA1 50%, #6F7A68 100%);
+  background: -webkit-linear-gradient(top, #BABABA 0%, #ACBDA1 50%, #6F7A68 100%);
+  background: linear-gradient(to bottom, #BABABA 0%, #ACBDA1 50%, #6F7A68 100%);
+}
+
+#name {
+  border: 3px solid black;
+  text-align: center;
+  margin-top: auto;
+  font-size: 80px;
+  color: rgba(16, 16, 16, 0.7);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid green;
+  font-size: 25px;
+  gap: 70px;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 3px solid red;
+  width: 500px;
+  text-align: center;
+}
+div img {
+  width:400px;
+  height:500px;
+   border: 3px solid rgba(16, 16, 16, 0.7);
+  border-radius: 100px;
+  box-shadow: 0 0 30px rgb(255, 250, 250);
+
+}
